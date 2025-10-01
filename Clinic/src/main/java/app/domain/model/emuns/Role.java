@@ -1,4 +1,4 @@
-package app.domain.model.emus;
+package app.domain.model.emuns;
 
 public enum Role {
 	RRHH,
@@ -6,4 +6,7 @@ public enum Role {
 	INFORMATIONSUPPORT,
 	NURSE,
 	DOCTOR,
+	CLINIC,
+	SELLER,
+	PATIENT,
 }

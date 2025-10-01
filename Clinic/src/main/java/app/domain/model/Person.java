@@ -1,6 +1,6 @@
 package app.domain.model;
 
-import app.domain.model.emus.Role;
+import app.domain.model.emuns.Role;
 
 public class Person {
 	private long id;

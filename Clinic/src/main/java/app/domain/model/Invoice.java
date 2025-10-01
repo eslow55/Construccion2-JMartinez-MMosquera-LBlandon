@@ -1,6 +1,14 @@
 package app.domain.model;
 
+import java.sql.Date;
+
 public class Invoice {
+	private Patient patient;
+	private ClinicalOrder order;
+	private String productName;
+	private double productAmount;
+	private boolean medicine;
+	private Date date;
     private long id;
     private String patientName;
     private int age;
@@ -9,6 +17,42 @@ public class Invoice {
     private double total;
     
     
+	public Patient getPatient() {
+		return patient;
+	}
+	public void setPatient(Patient patient) {
+		this.patient = patient;
+	}
+	public ClinicalOrder getOrder() {
+		return order;
+	}
+	public void setOrder(ClinicalOrder order) {
+		this.order = order;
+	}
+	public String getProductName() {
+		return productName;
+	}
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+	public double getProductAmount() {
+		return productAmount;
+	}
+	public void setProductAmount(double productAmount) {
+		this.productAmount = productAmount;
+	}
+	public boolean isMedicine() {
+		return medicine;
+	}
+	public void setMedicine(boolean medicine) {
+		this.medicine = medicine;
+	}
+	public Date getDate() {
+		return date;
+	}
+	public void setDate(Date date) {
+		this.date = date;
+	}
 	public long getId() {
 		return id;
 	}

@@ -12,7 +12,7 @@ public class UserMapper {
         UserEntity entity = new UserEntity();
         entity.setId(user.getId());
         entity.setName(user.getName());
-        entity.setDocument(user.getDocument());
+        entity.setDocument(user.getDocument()); 
         entity.setAge(user.getAge());
         entity.setRole(user.getRole().name());
         entity.setUserName(user.getUserName());
